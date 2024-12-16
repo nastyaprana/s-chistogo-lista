@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С чистого листа</title>
   </head>
@@ -14,7 +15,7 @@
       </a>
       <nav class="header__menu">
         <ul class="header__menu-list">
-          <li class="header__menu-item_active">
+          <li class="header__menu-item header__menu-item_active">
             <a class="header__menu-link" href="#">Главная</a>
           </li>
           <li class="header__menu-item">
@@ -37,7 +38,7 @@
       <section class="content-section content-section_theme_dark intro">
         <div class="intro__heading">
           <p class="intro__title">8 способов борьбы со страхом чистого листа</p>
-          <time class="intro__date" datetime="2022-06-05">05.06.2022 г.</time>
+          <time class="intro__date">05.06.2022 г.</time>
         </div>
         <div class="intro__main-text">
           <p>
@@ -202,11 +203,15 @@
       </section>
     </main>
     <footer class="content-section content-section_theme_dark footer">
-      <div class="footer__copy">© VЁRSTKA</div>
+      <p class="footer__copy">© VЁRSTKA</p>
       <div>
         <ul class="footer__links">
-          <li class="footer__links-vk">ВК</li>
-          <li class="footer__links-youtube">Ютуб</li>
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#">ВК</a>
+          </li>
+          <li class="footer__links-item">
+            <a class="footer__links-link" href="#">Ютуб</a>
+          </li>
         </ul>
       </div>
     </footer>
