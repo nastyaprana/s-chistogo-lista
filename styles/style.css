@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   background-color: #131313;
   width: 360px;
   margin: auto;
@@ -102,7 +101,6 @@ header {
 .cover {
   background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
-  background-position: right;
   padding: 7px 0 35px 20px;
   background-size: 95% auto;
   background-position: 113% 53%;
